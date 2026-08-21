@@ -12,4 +12,4 @@ env = {}
 method = "run_assessment"
 args = { 
     num_tasks = 1,
-    white_address = "http://finance-purple-agent:9009"  # <-- point to the purple agent container
+    white_address = "http://finance-purple-agent:9009"}  # <-- point to the purple agent container
