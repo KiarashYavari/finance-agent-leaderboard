@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/kiarashyavari/finance-agent-benchmark@sha256:a3d6c8a981c2850d0e88700e70f794907e1285ee7ebf25e40bc7bf43077cf37b",
+    "finance-purple-agent": "ghcr.io/kiarashyavari/finance-purple-agent@sha256:8f520f000640f8c1fab0c12f2755459c29cd4ca3ffd6d4eddb0b4c2ce39b5b24",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-08-26T18:49:00Z",
+  "github_actions": {
+    "run_url": "https://github.com/KiarashYavari/finance-agent-leaderboard/actions/runs/32499352156",
+    "run_logs_url": "https://api.github.com/repos/KiarashYavari/finance-agent-leaderboard/actions/runs/32499352156/logs",
+    "ref": "refs/heads/KiarashYavari-patch-1",
+    "sha": "424c9161e6b3d91ebbac17ac7f20c5f53df2d392",
+    "repository_url": "https://github.com/KiarashYavari/finance-agent-leaderboard",
+    "workflow_ref": "KiarashYavari/finance-agent-leaderboard/.github/workflows/run-scenario.yml@refs/heads/KiarashYavari-patch-1",
+    "workflow_sha": "424c9161e6b3d91ebbac17ac7f20c5f53df2d392"
+  }
+}
