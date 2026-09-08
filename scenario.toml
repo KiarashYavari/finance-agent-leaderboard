@@ -5,7 +5,7 @@ env = { LLM_API_KEY = "${LLM_API_KEY}", DATASET="/app/data/public.csv", YOUR_NAM
 [[participants]]
 agentbeats_id = "019bba61-5125-7dc2-97ab-ed46f4acbd9d"
 name = "finance-purple-agent"
-env = {}
+env = {LLM_API_KEY = "${LLM_API_KEY}"}
 
 [config]
 # Add your assessment config here
