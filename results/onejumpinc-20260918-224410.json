@@ -1,0 +1,13 @@
+{
+  "participants": {
+    "finance-purple-agent": "01a05b80-58e6-7e71-95e9-656bde816e85"
+  },
+  "results": [
+    {
+      "metric": "accuracy",
+      "value": 1.0,
+      "total_tasks": 50,
+      "correct_tasks": 50
+    }
+  ]
+}
