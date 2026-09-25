@@ -1,0 +1,17 @@
+[green_agent]
+agentbeats_id = "019bba35-9cbc-7950-a8da-41c06010d6bf"
+env = { USE_LOCAL_LLM_JUDGE = "1", USE_LOCAL_LLM_GPU = "0", LOCAL_LLM_JUDGE_MODEL = "/app/tools/models/llama-3.2-1b-instruct-q4_k_m.gguf", DATASET = "/app/data/public.csv", YOUR_NAME = "onejumpinc", EMAIL_ADDRESS = "business@mail.onejumpinc.com" }
+
+[[participants]]
+agentbeats_id = "01a05b80-58e6-7e71-95e9-656bde816e85"
+image = "ghcr.io/onejumpinc/officeqa-proxy-agent@sha256:7a6d2d64b9a582b0a57460d13ecb5ef4641afdac8d71d864007c2ce7380ce8fa"
+name = "finance-purple-agent"
+env = { OFFICEQA_API_URL = "${OFFICEQA_API_URL}", OFFICEQA_API_TOKEN = "${OFFICEQA_API_TOKEN}" }
+
+[config]
+# Full 50-question public assessment; this push starts the approved workflow.
+method = "run_assessment"
+
+[config.args]
+num_tasks = 50
+white_address = "http://finance-purple-agent:9009"
